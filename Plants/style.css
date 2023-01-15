@@ -42,7 +42,7 @@ html {
 body {
     max-width: 768px;
     margin: 0 auto;
-    background-color:  #EDF2EC;
+    background-color:  black;
 }
 
 header {
@@ -253,3 +253,146 @@ nav {
 .about_us_plant {
     margin-top: 47px;
 }
+
+.services {
+    display: flex;
+    flex-direction: column;
+
+    background: #EDF2EC;
+
+    height: 1780px;
+}
+
+
+.service_top {
+    width: 306px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.service_top_text {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    
+    color: #499A18;
+}
+
+.service_buttons {
+    width: 560px;
+    display: flex;
+    margin-left: 49px;
+    margin-top: 7px;
+    justify-content: space-between;
+
+
+}
+
+.service_button {
+    box-sizing: border-box;
+
+    width: 161px;
+    height: 50px;
+
+    border: 1px solid #E06733;
+    border-radius: 5px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #E06733;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.service_button:hover {
+    background: #E06733;
+    color: white;
+}
+
+.service_button:active {
+    border-radius: 30px;
+}
+
+.service_cards {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 668px;
+    height: 1426px;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.service_card {
+    width: 279px;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid #E3E1D5;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.3s;
+}
+.service_card:hover {
+transform: scale(1.1);
+}   
+
+.service_card_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.service_card_text1 {
+    margin-top: 9px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color: #E06733;
+}
+
+.service_card_text2 {
+    margin-top: -8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-align: center;
+    
+    color: #717171;
+}
+.prices {
+    height: 585px;
+    background: white;
+}
+
+.contact {
+    height: 739px;
+    background: #EDF2EC;
+ }
+
+ footer {
+    height: 181px;
+    background: white;
+ }
