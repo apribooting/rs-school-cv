@@ -42,15 +42,13 @@ html {
 body {
     max-width: 768px;
     margin: 0 auto;
-    background-color:  black;
+    background: #EDF2EC;
 }
 
-header {
-   
+header {  
     height: 117px;
     width: auto;
- 
-    
+    background: #EDF2EC;
 }
 
 .navbar {
@@ -612,11 +610,67 @@ color: #717171;
 }
 
 .contact_img {
-margin-top: 250px;
-margin-left: 137px;
+margin-top: 249px;
+margin-left: 136px;
 }
 
  footer {
     height: 181px;
     background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .footer_data {
+    margin-top: -5px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+ }
+ 
+ .footer_data1 {
+    margin-top: 33px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    word-spacing: 16px;
+
+    color: #000000;
+ }
+
+ .footer_social {
+    width: 188px;
+    height: 50px;
+    margin-right: 71px;
+    margin-top: -19px;
+    align-items: center
+ }
+
+ .footer_contacts {
+    margin-left: ;
+    width: 188px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+ }
+
+ .footer_contact {  
+    list-style-type: none;
+ }
+ .footer_icon {
+    transition: 0.5s;
+ }
+ .footer_icon:hover {
+    scale: 1.2;
  }
