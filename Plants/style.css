@@ -238,7 +238,7 @@ nav {
 }
 
 .about_us_text2 {
-    margin-top: 15px;
+    margin-top: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -264,7 +264,7 @@ nav {
 
 .service_top {
     width: 306px;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 50px;
 }
 
@@ -282,7 +282,7 @@ nav {
     width: 560px;
     display: flex;
     margin-left: 49px;
-    margin-top: 7px;
+    margin-top: 15px;
     justify-content: space-between;
 
 
@@ -354,11 +354,12 @@ transform: scale(1.1);
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5px;
     
 }
 
 .service_card_text1 {
-    margin-top: 9px;
+    margin-top: 5px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -369,7 +370,7 @@ transform: scale(1.1);
 }
 
 .service_card_text2 {
-    margin-top: -8px;
+    margin-top: -12px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -386,7 +387,7 @@ transform: scale(1.1);
 }
 
 .price_intro {
-   padding-top: 7px;
+   padding-top: 11px;
    padding-left: 65px;
 }
 
@@ -405,6 +406,7 @@ transform: scale(1.1);
     height: 358px;
     display: flex;
     justify-content: space-between;
+    margin-top: 37px;
 
 }
 
@@ -558,7 +560,7 @@ transform: scale(1.1);
 }
 
 .contact_us_container {
-    margin-top: 60px;
+    margin-top: 65px;
 
     width: 450px;
     height: 50px;
@@ -656,7 +658,6 @@ margin-left: 136px;
  }
 
  .footer_contacts {
-    margin-left: ;
     width: 188px;
     height: 50px;
     display: flex;
