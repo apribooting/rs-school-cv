@@ -387,6 +387,158 @@ transform: scale(1.1);
     background: white;
 }
 
+.price_intro {
+   padding-top: 7px;
+   padding-left: 65px;
+}
+
+.price_intro_text {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    
+}
+
+.prices_content {
+    width: 668px;
+    height: 358px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price_content_left {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 332px;
+    height: 282px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.price_buttons {
+    height: 214px;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+
+    background: #EDF2EC;
+    border-radius: 20px;
+
+    transition: 0.5s;
+
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color: #000000; 
+}
+
+.price_button_text {
+    margin-left: 40px;
+}
+
+.price_circle {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #d9d9d9;
+}
+
+.price_button:hover {
+    background: black;
+    color: white;
+}
+
+.price_content_right {
+    margin-right: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 296px;
+    height: 358px;
+   justify-content: space-between;
+    
+}
+
+.price_text {
+    margin-top: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+
+    text-align: right;
+
+    color: #000000;
+}
+
+.price_button2 {
+    box-sizing: border-box;
+    margin-top: -25px;
+    width: 161px;
+    height: 50px;
+
+    border: 1px solid #E06733;
+    border-radius: 5px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #E06733;
+    background: white;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.price_button2:hover {
+    background: #E06733;
+    color: white;
+}
+
+.price_button2:active {
+    border-radius: 30px;
+}
+
+.price_img {
+    width: 168px;
+    height: 188px;
+    margin-bottom: -27px;
+    margin-right: -10px;
+}
 .contact {
     height: 739px;
     background: #EDF2EC;
