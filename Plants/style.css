@@ -36,10 +36,11 @@ a:hover {
 
 html {
     scroll-behavior: smooth;
-    margin: 0;
+   
     
 }
 body {
+    
     max-width: 768px;
     margin: 0 auto;
     background: #EDF2EC;
@@ -57,7 +58,7 @@ header {
     position: relative;
     width: 668px;
     height: 47px;
-    margin: auto;
+    margin-left: 6.5%;
     margin-top: 34px;
    
 }
@@ -66,7 +67,7 @@ header {
     margin-top: 3px;
     display: flex;
     align-items: center;
-    left: 0px;
+    
  
 }
 
@@ -121,8 +122,7 @@ nav {
 
     background-color: #EDF2EC;
     
-    display: flex;
-    justify-content: center;
+    margin-left: 6.5%;
 }
 
 .welcome_content{
@@ -212,14 +212,14 @@ nav {
 
 .about {
     height: 783px;
+    width: 768px;
     background: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
+    
 }
 
 .about_us_text {
-    width: 668px;
+    width: 768px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,6 +238,7 @@ nav {
 }
 
 .about_us_text2 {
+    width: 668px;
     margin-top: 20px;
     font-family: 'Inter';
     font-style: normal;
@@ -249,6 +250,7 @@ nav {
 }
 
 .about_us_plant {
+    ;
     margin-top: 47px;
 }
 
@@ -382,7 +384,9 @@ transform: scale(1.1);
     color: #717171;
 }
 .prices {
+    display: flex;
     height: 585px;
+    width: 768px;
     background: white;
 }
 
@@ -542,6 +546,7 @@ transform: scale(1.1);
 .contact {
     display: flex;
     flex-direction: column;
+    width: 768px;
     height: 739px;
     background: #EDF2EC;
     align-items: center;
@@ -618,6 +623,7 @@ margin-left: 136px;
 
  footer {
     height: 181px;
+    width: 768px;
     background: white;
     display: flex;
     flex-direction: column;
