@@ -266,6 +266,141 @@ nav {
 
 }
 
+.services {
+    display: flex;
+    flex-direction: column;
+
+    background: #EDF2EC;
+    width: 1440px;
+    height: 1300px;
+}
+
+
+.service_top {
+    width: 306px;
+    margin-top: 6px;
+    margin-left: 110px;
+}
+
+.service_top_text {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    
+    color: #499A18;
+}
+
+.service_buttons {
+    width: 560px;
+    display: flex;
+    margin-left: 555px;
+    margin-top: -108px;
+    justify-content: space-between;
+
+
+}
+
+.service_button {
+    box-sizing: border-box;
+
+    width: 161px;
+    height: 50px;
+
+    border: 1px solid #E06733;
+    border-radius: 5px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #E06733;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.service_button:hover {
+    background: #E06733;
+    color: white;
+}
+
+.service_button:active {
+    border-radius: 30px;
+}
+
+.service_cards {
+    margin-top: 105px;
+    margin-left: 110px;
+    width: 1222px;
+    height: 955px;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.service_card {
+    width: 330px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid #E3E1D5;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.3s;
+}
+.service_card:hover {
+transform: scale(1.1);
+}   
+
+.service_card_adaptive {
+    width: 330px;
+    height: 350px;
+
+}
+.service_card_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    
+}
+
+.service_card_text1 {
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+     
+    color: #E06733;
+}
+
+.service_card_text2 {
+    margin-top: -5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-align: center;
+    
+    color: #717171;
+}
+
 }
 @media (max-width: 768px) {
 h1 {    font-family: Inter;
@@ -593,6 +728,7 @@ transform: scale(1.1);
 }   
 
 .service_card_text {
+    width: 201px;
     display: flex;
     flex-direction: column;
     align-items: center;
