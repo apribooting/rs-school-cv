@@ -117,7 +117,7 @@ nav {
 .welcome {
     top: 134px;
     width: 1440px;
-    height: 532px;
+    height: 490px;
 
     background-color: #EDF2EC;
     
@@ -210,6 +210,62 @@ nav {
     width: 465px;
     height: 435px;
 }
+
+.about {
+    height: 666px;
+    width: 1440px;
+    background: white;
+    display: flex;
+    justify-content: a;
+}
+
+.about_us_text {
+    margin-top: 129px;
+    margin-left: 7.5%;
+    width: 605px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about_us_text1 {
+    
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+
+    color: #499A18;
+}
+
+.about_us_text2 {
+    width: 605px;
+    margin-top: 3px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #636060;
+}
+
+.about_plant_adaptive {
+    width: 464px;
+    height: 479px;
+}
+
+.about_us_plant {
+    width: 464px;
+    height: 479px;
+    margin-left: 153px;
+    margin-top: 92px;
+
+}
+
 }
 @media (max-width: 768px) {
 h1 {    font-family: Inter;
@@ -434,7 +490,7 @@ nav {
 }
 
 .about_us_plant {
-    
+    margin-left: 33.6%;
     margin-top: 47px;
 }
 
