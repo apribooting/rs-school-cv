@@ -100,6 +100,7 @@ nav {
 }
 
 .menu_list {
+    box-sizing: border-box;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -124,19 +125,21 @@ nav {
 }
 
 .welcome_content{
-    width: 668px;
+    width: 1152px;
     display: flex;
     justify-content: space-between;
     
 }
 
 .welcome_text {
-    height: 310px;
-    width: 341px;
+    height: 340px;
+    width: 549px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    order: 1;
+    margin-top: 4.3%;
+    margin-right: -7.5%;
 }
 
 .welcome_text1 {
@@ -156,20 +159,20 @@ nav {
 
 
 .welcome_text2 {
-    margin-top: 12px;
-    margin-left: 5px;
+    margin-top: -19px;
+    margin-left: 0px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 35px;
     
     color: #636060;    
 }
 
 .button_learn_more {
     margin-bottom: -6px;
-    margin-left: 3px;
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -202,12 +205,12 @@ nav {
 }
 
 .leafs_welcome {
-    margin-right: -5px;
-    margin-top: -3px;
-    width: 290px;
-    height: 270px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 465px;
+    height: 435px;
 }
-
+}
 @media (max-width: 768px) {
 h1 {    font-family: Inter;
     font-size: 45px;
@@ -279,6 +282,7 @@ nav {
 }
 
 .menu_list {
+    box-sizing: border-box;
     width: 100%;
     display: flex;
     justify-content: space-between;
