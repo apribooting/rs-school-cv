@@ -47,7 +47,7 @@ html {
 body {
     max-width: 1440px;
     margin: 0 auto;
-    background: #EDF2EC;
+    background: url(/assets/img/beautiful-tree-in-the-middle-of-a-field-covered-with-grass-with-the-tree-line-in-the-background.jpg)
 }
 
 h1 {    
@@ -64,6 +64,7 @@ h1 {
 
 header {  
     height: 134px;
+    padding-top: 1px;
     width: auto;
     background: #EDF2EC;
 }
@@ -124,15 +125,16 @@ nav {
 
 .welcome {
     top: 134px;
-    width: 1440px;
+    width: 100%;
     height: 490px;
 
     background-color: #EDF2EC;
     
-    margin-left: 6.5%;
+    
 }
 
 .welcome_content{
+    margin-left: 6.5%;
     width: 1152px;
     display: flex;
     justify-content: space-between;
@@ -1413,6 +1415,7 @@ header {
     background: #EDF2EC;
     display: flex;
     justify-content: center;
+    z-index: 3;
 }
     
 .navbar {
@@ -1490,7 +1493,7 @@ header {
     margin-left: 10px;
     width: 40px;
     height: 28px;
-   
+    
 }
 
 .burger_line{
@@ -1505,12 +1508,26 @@ header {
 
 .burger_menu {
     position: absolute;
-    top: 70px;
+    top: 69px;
     display: flex;
     width: 380px;
     height: 140px;
-    background-color:#D6E7D2
+    background-color:#D6E7D2;
+    z-index: 1;
+    transition: 0.5s;
+    visibility: hidden;
+    transform: translate(0px, 0%);
+    opacity: 0;
 }   
+
+.burger_menu_active {
+    padding-top: 8px;
+    position: fixed;
+    visibility: visible;
+    z-index: 2;
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
 
 .welcome {
     margin-top: 129px;
@@ -1518,10 +1535,11 @@ header {
     width: 380px;
     background-color: #EDF2EC;
     
-    margin-left: 6.5%;
+    margin-left: 0px;
 }
 
 .welcome_content {
+    margin-left: 6.5%;
     width: 330px;
     height: 252px;
     display: flex;
@@ -1746,6 +1764,7 @@ header {
     border: 1px solid #E3E1D5;
     border-radius: 20px 20px 20px 20px;
     transition: 0.3s;
+    z-index: 1;
 }
 .service_card:hover {
 transform: scale(1.1);
