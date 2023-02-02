@@ -1498,6 +1498,7 @@ header {
     margin-left: 10px;
     width: 40px;
     height: 28px;
+    transition: 1s;
     
 }
 
@@ -1509,6 +1510,13 @@ header {
     
     background-color: #717171;
 
+}
+
+.burger_ok {
+    transform: scaleY(0.7);
+    background-color: #d6e7cb;
+   
+    
 }
 
 .burger_menu {
