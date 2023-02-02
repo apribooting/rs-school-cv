@@ -65,7 +65,8 @@ h1 {
 header {  
     height: 134px;
     padding-top: 1px;
-    width: auto;
+    margin-bottom: 0px;
+    width: 1440px;
     background: #EDF2EC;
 }
 
@@ -124,8 +125,9 @@ nav {
 }
 
 .welcome {
+    margin-top: -1px;
     top: 134px;
-    width: 100%;
+    width: 1440px;
     height: 490px;
 
     background-color: #EDF2EC;
@@ -134,7 +136,7 @@ nav {
 }
 
 .welcome_content{
-    margin-left: 6.5%;
+    margin-left: 90px;
     width: 1152px;
     display: flex;
     justify-content: space-between;
@@ -222,11 +224,11 @@ nav {
 }
 
 .about {
+    margin-top: -1px;
     height: 666px;
     width: 1440px;
     background: white;
     display: flex;
-    justify-content: a;
 }
 
 .about_us_text {
@@ -277,6 +279,7 @@ nav {
 }
 
 .services {
+    margin-top: -1px;
     display: flex;
     flex-direction: column;
 
@@ -412,6 +415,7 @@ transform: scale(1.1);
 }
 
 .prices {
+    margin-top: -1px;
     display: flex;
     height: 560px;
     width: 1440px;
@@ -575,6 +579,7 @@ transform: scale(1.1);
 }
 
 .contact {
+    margin-top: -1px;
     display: flex;
     flex-direction: column;
     width: 1440px;
@@ -1493,6 +1498,7 @@ header {
     margin-left: 10px;
     width: 40px;
     height: 28px;
+    transition: 1s;
     
 }
 
@@ -1504,6 +1510,13 @@ header {
     
     background-color: #717171;
 
+}
+
+.burger_ok {
+    transform: scaleY(0.7);
+    background-color: #d6e7cb;
+   
+    
 }
 
 .burger_menu {
