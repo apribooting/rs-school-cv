@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Inika:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
+
 .color_green {
      color: #499A18;
 }
@@ -423,6 +424,7 @@ transform: scale(1.1);
     
     color: #717171;
 }
+
 
 .prices {
     margin-top: -1px;
@@ -1099,6 +1101,15 @@ transform: scale(1.1);
     text-align: center;
     
     color: #717171;
+}
+
+.service_card_active {
+    filter: blur(1.5px);
+}
+
+.service_button_js {
+    background: #E06733;
+    color: white;
 }
 .prices {
     display: flex;
@@ -1827,6 +1838,14 @@ transform: scale(1.1);
     color: #717171;
 }
 
+.service_card_active {
+    filter: blur(1.5px);
+}
+
+.service_button_js {
+    background: #E06733;
+    color: white;
+}
 .prices {
     display: flex;
     flex-direction: column;
