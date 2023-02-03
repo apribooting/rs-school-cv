@@ -116,7 +116,35 @@ console.log("1. 24/24 \n 2. 24/24 \n 3. 15/15 \n 4. Нету крестика, �
     list.addEventListener("click", () => {
        burgerItem.classList.toggle("burger_ok");  
     });
-}()); 
+}());
+
+
+(function () {
+    const garden = document.querySelectorAll('.card_garden');
+    const planting = document.querySelectorAll('.card_planting');
+    const lawn = document.querySelector('.card_lawn')
+    const garden_btn = document.querySelector('.button_gardens');
+    const planting_btn = document.querySelector('.button_planting');
+    const lawn_btn = document.querySelector('.button_lawn');
+    const blur = document.querySelector(".service_card_active");
+    const service_button_active = document.querySelector('.service_button_js')
+    garden_btn.addEventListener("click", () => {
+        garden[0].classList.toggle("service_card_active");
+        garden[1].classList.toggle("service_card_active");
+        garden_btn.classList.toggle("service_button_js");
+    });
+    planting_btn.addEventListener("click", () => {
+        planting[0].classList.toggle("service_card_active");
+        planting[1].classList.toggle("service_card_active");
+        planting[2].classList.toggle("service_card_active");
+        planting_btn.classList.toggle("service_button_js");
+    });
+    lawn_btn.addEventListener("click", () => {
+        lawn.classList.toggle("service_card_active");
+        lawn_btn.classList.toggle("service_button_js");
+    });
+}());
+
 
 
 
