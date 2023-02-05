@@ -145,6 +145,90 @@ console.log("1. 24/24 \n 2. 24/24 \n 3. 15/15 \n 4. Нету крестика, �
     });
 }());
 
+(function () {
+    const basics_sec = document.querySelector('.basics');
+    const burger_open = document.querySelector('.basics_opened');
+    const pro_care_sec = document.querySelector('.pro_care');
+    const circle_pro_care = document.querySelector('.price_circle_pro_care');
+    const circle_standard = document.querySelector('.price_circle_standard');  
+    const circle_basics = document.querySelector('.price_circle_bacics'); 
+    const standard_sec = document.querySelector('.standard');
+    const pudge = document.querySelectorAll('.pudge');
+    basics_sec.addEventListener("click", () => {
+       basics_sec.classList.toggle("basics_opened");
+       standard_sec.classList.remove("basics_opened");
+       pro_care_sec.classList.remove("basics_opened");
+       circle_basics.classList.toggle("price_circle_active")
+       circle_standard.classList.remove("price_circle_active")
+       circle_pro_care.classList.remove("price_circle_active")
+       pudge[0].classList.toggle("pudge");
+       pudge[1].classList.toggle("pudge");
+       pudge[2].classList.toggle("pudge");
+       pudge[3].classList.add("pudge");
+       pudge[4].classList.add("pudge");
+       pudge[5].classList.add("pudge");
+       pudge[6].classList.add("pudge");
+       pudge[7].classList.add("pudge");
+       pudge[8].classList.add("pudge"); 
+
+    });
+}());
+
+(function () {
+    const standard_sec = document.querySelector('.standard');
+    const burger_open = document.querySelector('.basics_opened');
+    const pro_care_sec = document.querySelector('.pro_care');
+    const basics_sec = document.querySelector('.basics');
+    const circle_basics = document.querySelector('.price_circle_bacics'); 
+    const circle_standard = document.querySelector('.price_circle_standard');
+    const circle_pro_care = document.querySelector('.price_circle_pro_care');
+    const pudge = document.querySelectorAll('.pudge');
+    standard_sec.addEventListener("click", () => {
+       standard_sec.classList.toggle("basics_opened");
+       basics_sec.classList.remove("basics_opened");
+       pro_care_sec.classList.remove("basics_opened");
+       circle_standard.classList.toggle("price_circle_active")
+       circle_pro_care.classList.remove("price_circle_active")
+       circle_basics.classList.remove("price_circle_active")    
+       pudge[0].classList.add("pudge");
+       pudge[1].classList.add("pudge");
+       pudge[2].classList.add("pudge")
+       pudge[3].classList.toggle("pudge");
+       pudge[4].classList.toggle("pudge");
+       pudge[5].classList.toggle("pudge");
+       pudge[6].classList.add("pudge");
+       pudge[7].classList.add("pudge");
+       pudge[8].classList.add("pudge"); 
+    });   
+}());
+
+(function () {
+    const pro_care_sec = document.querySelector('.pro_care');
+    const basics_sec = document.querySelector('.basics');
+    const standard_sec = document.querySelector('.standard');
+    const burger_open = document.querySelector('.basics_opened');
+    const circle_pro_care = document.querySelector('.price_circle_pro_care');
+    const circle_basics = document.querySelector('.price_circle_bacics'); 
+    const circle_standard = document.querySelector('.price_circle_standard');
+    const pudge = document.querySelectorAll('.pudge');
+    pro_care_sec.addEventListener("click", () => {
+       pro_care_sec.classList.toggle("basics_opened");
+       standard_sec.classList.remove("basics_opened");
+       basics_sec.classList.remove("basics_opened");
+       circle_pro_care.classList.toggle("price_circle_active")
+       circle_basics.classList.remove("price_circle_active")   
+       circle_standard.classList.remove("price_circle_active")   
+       pudge[0].classList.add("pudge");
+       pudge[1].classList.add("pudge");
+       pudge[2].classList.add("pudge");
+       pudge[3].classList.add("pudge");
+       pudge[4].classList.add("pudge");
+       pudge[5].classList.add("pudge");
+       pudge[6].classList.toggle("pudge");
+       pudge[7].classList.toggle("pudge");
+       pudge[8].classList.toggle("pudge"); 
+    });
+}());
 
 
 
