@@ -230,6 +230,20 @@ console.log("1. 24/24 \n 2. 24/24 \n 3. 15/15 \n 4. Нету крестика, �
     });
 }());
 
+(function () {
+    const city_list = document.querySelector('.prikol');
+    const knopka = document.querySelector('.knopka');
+    const hide = document.querySelectorAll('.city_hide');
+
+    knopka.addEventListener("click", () => {
+       city_list.classList.toggle("city_selector_active");
+       hide[1].classList.toggle("city_hide");
+       hide[2].classList.toggle("city_hide"); 
+       hide[3].classList.toggle("city_hide"); 
+       hide[0].classList.toggle("city_hide");   
+    });
+}());
+
 
 
 

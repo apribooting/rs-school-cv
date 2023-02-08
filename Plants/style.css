@@ -722,10 +722,12 @@ transition: 0.2s;
 }
 
 .contact_us_container {
+    position: relative;
     margin-top: 0px;
     margin-left: 770px;
     width: 450px;
     height: 50px;
+    z-index: 2;
 }
 
 .contact_us_button {
@@ -740,8 +742,8 @@ transition: 0.2s;
     border-radius: 0px;
 
     transition: 0.5s;
-
-   
+    z-index: 4;
+    position: relative;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -774,12 +776,63 @@ color: #717171;
 }
 
 .contact_img {
-    
+position: sticky;    
 margin-top: -143px;
-margin-left: -770px;
+margin-left: -700px;
 }
 
+.city_selector {
+    position: relative;
+    width: 450px;
+    height: 0px;
+    background-color: #dce9d9;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    z-index: 1;
+    margin-top: -10px;
+    
+}
+.city {
+    position: relative;
+    z-index: 1;
+    height: 35px;
+    margin-left: 26px;
+    width: 380px;
+    border-bottom: solid 1px #d9d9d9;
+    padding-top: 12px;
 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+letter-spacing: 0.05em;
+color: #499A18;
+transition: 0.5s;
+
+}
+
+.city_hide {
+    margin-top: -20px;
+    height: 0px;
+    opacity: 0;
+    
+}
+.city:hover {
+    background-color:#d6e7cb
+}
+
+.city_selector :first-child {
+    margin-top: 5px;
+}
+
+.city_selector_active {
+    height: 234px;
+    margin-top: 0;
+}
+    
+}
 footer {
     height: 125px;
     width: 1440px;
@@ -846,7 +899,7 @@ footer {
     scale: 1.2;
  }
 
-}
+
 @media (max-width: 768px) and (min-width: 381px) {
 h1 {    font-family: Inter;
     font-size: 45px;
