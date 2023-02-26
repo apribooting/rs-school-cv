@@ -114,3 +114,12 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+main {
+    display: flex;
+    justify-content: center;
+}
+.ss {
+    border: 3px solid red;
+    font-size: 30px;
+    width: 500px;
+}
