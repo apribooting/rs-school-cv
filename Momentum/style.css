@@ -95,12 +95,17 @@ header {
     transition: .3s;
 }
 
+.color_red {
+    color: red;
+}
+
 .play-item:before {
     content: "\2713";
     position: absolute;
     left: 0;
     top: 2px;
     font-weight: 900;
+    
 }
 
 .play-item:hover {
