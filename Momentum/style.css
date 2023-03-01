@@ -9,14 +9,14 @@
     padding: 0;
 }
 body {
-    background-image: url(assets/images/aloha.jpg);
+    
     min-width: 480px;
     min-height: 100vh;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     color: #fff;
     text-align: center; 
-    
+    transition: 2s;
     background-size: cover;
 }
 
@@ -213,8 +213,6 @@ main {
     border: 0;
     outline: 0;
 }
-
-
 
 
 @media (max-width: 768px) {
