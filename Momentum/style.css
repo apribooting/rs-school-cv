@@ -214,7 +214,96 @@ main {
     outline: 0;
 }
 
-
+.container-todolist{
+    bottom: 100px;
+    right: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    width: 30%;
+  }
+  .todolist{  
+    background: rgba(19,23,25,.8);
+    width: 65%;
+  }
+  
+  .todolist-title{
+      padding: 10px 0;
+  }
+  .list-none{
+    margin: 35px;
+    text-align: center;
+  }
+  .list-available{
+    max-height: 90px;
+    overflow: auto;
+    display: none;
+  }
+  .list-available-open{
+    display: block;
+  }
+  .todolist-form{
+    text-align: start;
+    padding: 15px;
+  }
+  .todolist-form-input{
+    padding: 5px;
+    width: 60%;
+  }
+  .todolist-form-button{
+    padding: 5px 10px;
+    color: #fff;
+    background: rgba(213,215,213,.3);
+    border: none;
+    margin-left: 3px;
+    font-size: 15px;
+  }
+  .list{
+    padding: 5px 0;
+  }
+  .todo-list-element{
+    text-align: start;
+    padding: 5px 15px;
+    border: 1px transparent solid;
+  }
+  .todo-list-element:hover{
+    border: 1px rgba(115,123,126,1) solid;
+  }
+  .todo-list-element-label{
+    margin-left: 5px;
+  }
+  .todo-list-element-span{
+    float: right;
+    visibility: hidden;
+  }
+  .todo-list-element-span-hover{
+    visibility: visible;
+    cursor: pointer;
+  }
+  .input-todolist-inactive{
+    text-decoration: line-through;
+    color: rgba(115,123,126,1);
+  }
+  .none{
+    display: none;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+  }
+  .block{
+    display: flex;
+    width: 50%;
+    margin: 3px;
+  }
+  .visibility-checkbox{
+    margin-right: 5px;
+  }
+  .visibility-hidden{
+    opacity: 0;
+    visibility: hidden;
+  }
 @media (max-width: 768px) {
 .time {
     min-height: 80px;
@@ -229,4 +318,103 @@ main {
     font-size: 32px;
     padding: 5px;
 }
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    row-gap: 5px;
+    width: 180px;
+    min-height: 180px;  
+    text-align: left;
+    transition: .9ms;
+  }
+  
+  .weather-error {
+    margin-top: -10px;
+  }
+  
+  .description-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 12px;
+  }
+  
+  .weather-icon {
+    font-size: 44px;
+  }
+  
+  .city {
+    width: 170px;
+    height: 34px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;  
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+  }
+  
+  .city::placeholder {  
+    font-size: 20px;
+    color: #fff;
+    opacity: .6;
+  }
+
+  .container-quote{
+    width: 40%;
+    margin-left: 30%;
+    
+   
+    
+    transition: .9ms;
+  }
+  .change-quote {
+    margin-bottom: 30px;
+    background-image: url("/assets/svg/reload.svg");
+    background-size: 32px 32px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    opacity: .8;
+    transition: .3s;
+    cursor: pointer;
+  } 
+
+  .change-quote:hover {
+    opacity: 1;
+    scale: 1.1;
+    transform: rotate(180deg);
+  };
+
+
+  .quote {
+    min-height: 32px;
+    max-width: 40%;
+  }
+  
+  .author {
+    min-height: 20px;
+  }
+
+  
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 160px;
+    padding: 0 10px;
+    padding-top: 0;
 }

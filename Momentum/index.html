@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owfont-regular.css">
     <link href = "assets/favicon.ico" rel="shortcut icon">
     <title>Momentum</title>
 </head>
@@ -21,9 +22,19 @@
                     <li class="play-item">Go middle</li>
                     <li class="play-item">Fantastic Arthas sounds</li>
                     <li class="play-item">Ilya Korobkin - Baby</li>
-                    <li class="play-item">Bald Windranger</li>
                 </ul>
         </div>
+        <div class="weather">
+            <input type="text" class="city" value="Minsk" >
+            <i class="weather-icon owf"></i>
+            <div class="weather-error"></div>
+            <div class="description-container">
+              <span class="temperature"></span>
+              <span class="weather-description"></span>
+            </div>
+            <div class="wind"></div>
+            <div class="humidity"></div>
+          </div>
     </header>
    <main>
     <div class="slider-icons">
@@ -39,7 +50,29 @@
    </main>
 
     <footer>
-
+        <div class= "container-quote">
+            <button class="change-quote"></button>
+            <div class="quote"></div>
+            <div class="author"></div>
+          </div>
+          <div class="container-todolist">
+            <div class="todolist">
+              <h3 class="todolist-title"></h3>
+              <div class="list">
+                <div class="list-none">
+                  <p class="list-none-text"></p>
+                </div>
+                <div class="list-available">
+                  
+                </div>
+              </div>
+              <form class="todolist-form">
+                <input type="text" class="todolist-form-input">
+                <button type="submit" class="todolist-form-button"></button>        
+              </form>
+        
+            </div>
+          </div>
     </footer>
     <script type="module" src="script.js"></script>
 </body>
