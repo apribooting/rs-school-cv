@@ -96,7 +96,7 @@ color: #CDCDCD;
 
 
 .not_only {
-    background-image: url("../shelter/assets/images/start-screen-background.png");
+    background-image: url("./assets/images/start-screen-background.png");
     max-width: 1280px;
     height: 913px;
     margin-top: -95px;
@@ -623,4 +623,142 @@ align-items: center;
 /* color-dark-m */
 
 color: #B2B2B2;
+}
+
+footer {
+    max-width: 1280px;
+    height: 350px;
+    display: flex;
+    background-image: url("./assets/images/footer-background.png");
+    justify-content: center;
+    align-items: end;
+}
+
+.footer_content {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    height: 310px;
+}
+
+.footer_contacts {
+    margin-top:16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 234px;
+    width: 278px;    
+}
+
+.contacts_top {
+    width: 279px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+/* or 45px */
+
+    letter-spacing: 0.06em;
+
+/* color-light-xl */
+
+    color: #FFFFFF;
+}
+
+.contacts1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    width: 251px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+
+/* color-primary */
+
+color: #F1CDB3;
+}
+
+.contacts2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    width: 239px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+
+/* color-primary */
+
+color: #F1CDB3;
+}
+
+.footer_location{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 302px;
+    height: 234px;
+    margin-top:16px;
+}
+
+.location_top{
+    width: 279px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+/* or 45px */
+
+    letter-spacing: 0.06em;
+
+/* color-light-xl */
+
+    color: #FFFFFF;
+}
+
+.location1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+    width: 295px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+
+/* color-primary */
+
+color: #F1CDB3;
+}
+
+.location2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    width: 271px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+
+/* color-primary */
+
+color: #F1CDB3;
 }
